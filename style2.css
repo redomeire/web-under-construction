@@ -32,3 +32,24 @@ img {
     text-align: center;
     font-family: 'Roboto';
 }
+
+@media screen and (max-device-width:550px){
+    img {
+        width: 400px;
+    }
+}
+
+@media screen and (max-device-width:420px){
+    img {
+        width: 300px;
+    }
+    .errorword h1{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-device-width:310px){
+    img {
+        width: 250px;
+    }
+}
