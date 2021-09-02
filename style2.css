@@ -41,13 +41,17 @@ img {
 
 @media screen and (max-device-width:420px){
     img {
-        width: 300px;
+        width: 350px;
     }
     .errorword h1{
         font-size: 15px;
     }
 }
-
+@media screen and (max-device-width:350px){
+    img {
+        width: 300px;
+    }
+}
 @media screen and (max-device-width:310px){
     img {
         width: 250px;
