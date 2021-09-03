@@ -15,7 +15,12 @@ body {
     align-items: center;
     justify-content: center;
 }
-.image a {
+
+.div2 {
+    display: flex;
+    justify-content: center;
+}
+.div2 a {
     text-decoration: none;
     color: white;
     font-family: 'Roboto';
@@ -25,12 +30,6 @@ body {
 img {
     width: 100%;
     margin: auto;
-}
-.errorword h1 {
-    color: white;
-    font-size: 20px;
-    text-align: center;
-    font-family: 'Roboto';
 }
 
 @media screen and (max-device-width:550px){
